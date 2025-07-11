@@ -4,7 +4,7 @@ services:
   - type: web
     name: patient-api
     runtime: docker
-    repo: https://github.com/render-examples/patient-api
+    repo: https://github.com/shizn/patient-api
     plan: starter
     envVars:
       - key: DATABASE_URL
